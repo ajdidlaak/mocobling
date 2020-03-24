@@ -10,6 +10,11 @@
     list-style: none;
 }
 
+.warp {
+    width: 1024px;
+    margin: 0 auto;
+}
+
 a {
     color: #333;
 }
@@ -488,13 +493,20 @@ section-body
 /* bnr box
 */
 
+.bnr_box {
+    clear: both;
+    min-width: 1024px;
+    height: 530px;
+  
+}
+
 .box1 {
     width: 50%;
-    height: 540px;
+    height: 530px;
     float: left;
     position: relative;
     overflow: hidden;
-    margin-top: 20px;
+  
 }
 
 .box1 img {
