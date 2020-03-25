@@ -10,10 +10,11 @@
     list-style: none;
 }
 
-.warp {
-    width: 1024px;
-    margin: 0 auto;
-}
+/* body {
+    width: 100%;
+    min-width: 1024px;
+    
+} */
 
 a {
     color: #333;
@@ -537,11 +538,9 @@ section-body
 /*
 footer
 */
-.page-footer>.inner {
-    width: 960px;
-    margin: 0 auto;
-    padding-top: 30px;
-    padding-bottom: 40px;
+
+.page-footer {
+    min-width: 1024px;
 }
 
 .copyright {
@@ -575,7 +574,7 @@ footer
 }
 
 .inner_clearfix {
-    width: 100%px;
+    width: 100%;
     text-align: center;
 }
 
