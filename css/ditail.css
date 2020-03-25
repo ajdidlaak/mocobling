@@ -512,6 +512,11 @@ table caption {
 /*
 footer
 */
+
+.page-footer {
+    min-width: 1024px;
+}
+
 .page-footer>.inner {
     width: 960px;
     margin: 0 auto;

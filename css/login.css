@@ -244,13 +244,13 @@ page header
 */
 
 .main_content {
-    padding-top: 130px;
-    
+    padding-top: 130px;    
+    width: 1024px;
 }
 
 .login_box {
     width: 429px;
-    margin: 0 auto;
+    margin: 20px 0 20px 430px;
 }
 
 .login_title {
@@ -300,6 +300,7 @@ page header
     width: 100%;
     text-align: center;
     margin-top: 50px;
+    margin-left: 120px;
 }
 
 .img {
@@ -311,6 +312,10 @@ page header
 /*
 footer
 */
+
+.page-footer {
+    min-width: 1024px;
+}
 
 .copyright {
     font-size: 12px;
