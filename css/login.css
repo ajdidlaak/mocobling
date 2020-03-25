@@ -246,11 +246,13 @@ page header
 .main_content {
     padding-top: 130px;    
     width: 1024px;
+    margin: 0 auto;    
 }
 
 .login_box {
     width: 429px;
-    margin: 20px 0 20px 430px;
+    margin: 0 auto;
+    /* margin: 20px 0 20px 230px; */
 }
 
 .login_title {
@@ -299,12 +301,12 @@ page header
 .txt {
     width: 100%;
     text-align: center;
-    margin-top: 50px;
-    margin-left: 120px;
+    margin: 50px auto;
 }
 
 .img {
-    margin: 50px 0 0 390px;
+    width: 506px;
+    margin: 0 auto;
 }
 
 /*FOOTER 
